@@ -1,0 +1,26 @@
+<svg fill="none" height="44" viewBox="0 0 45 44" width="45" xmlns="http://www.w3.org/2000/svg">
+    <g filter="url(#filter0_dd)">
+        <circle cx="22.5" cy="18" fill="white" r="10" />
+    </g>
+    <defs>
+        <filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="44"
+            id="filter0_dd" width="44" x="0.5" y="0">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix in="SourceAlpha" type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+            <feOffset dy="4" />
+            <feGaussianBlur stdDeviation="6" />
+            <feColorMatrix type="matrix"
+                values="0 0 0 0 0.659375 0 0 0 0 0.725312 0 0 0 0 0.879167 0 0 0 0.3 0" />
+            <feBlend in2="BackgroundImageFix" mode="normal" result="effect1_dropShadow" />
+            <feColorMatrix in="SourceAlpha" type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+            <feOffset dy="2" />
+            <feGaussianBlur stdDeviation="2" />
+            <feColorMatrix type="matrix"
+                values="0 0 0 0 0.5775 0 0 0 0 0.6405 0 0 0 0 0.7875 0 0 0 0.4 0" />
+            <feBlend in2="effect1_dropShadow" mode="normal" result="effect2_dropShadow" />
+            <feBlend in="SourceGraphic" in2="effect2_dropShadow" mode="normal" result="shape" />
+        </filter>
+    </defs>
+</svg>

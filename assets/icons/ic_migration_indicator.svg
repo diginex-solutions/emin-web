@@ -1,0 +1,35 @@
+<svg fill="none" height="56" viewBox="0 0 43 56" width="43" xmlns="http://www.w3.org/2000/svg">
+    <g style="mix-blend-mode:multiply">
+        <line stroke="black" stroke-width="2" transform="matrix(0 -1 -1 0 20.5 31)" x2="31" y1="-1"
+            y2="-1" />
+    </g>
+    <g filter="url(#filter0_dd)">
+        <path
+            d="M22.3087 28.112C21.9094 27.5629 21.0906 27.5629 20.6913 28.112L14.655 36.4118C14.1743 37.0728 14.6465 38 15.4638 38H27.5362C28.3535 38 28.8257 37.0728 28.345 36.4118L22.3087 28.112Z"
+            fill="black" />
+        <path
+            d="M19.8825 27.5238C20.6812 26.4256 22.3188 26.4256 23.1175 27.5238L29.1537 35.8237L28.345 36.4118L29.1537 35.8237C30.1151 37.1456 29.1708 39 27.5362 39H15.4638C13.8292 39 12.8849 37.1456 13.8463 35.8237L19.8825 27.5238Z"
+            stroke="white" stroke-width="2" />
+    </g>
+    <defs>
+        <filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="38.2998"
+            id="filter0_dd" width="42.0832" x="0.458435" y="17.7002">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix in="SourceAlpha" type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+            <feOffset dy="4" />
+            <feGaussianBlur stdDeviation="6" />
+            <feColorMatrix type="matrix"
+                values="0 0 0 0 0.659375 0 0 0 0 0.725312 0 0 0 0 0.879167 0 0 0 0.3 0" />
+            <feBlend in2="BackgroundImageFix" mode="normal" result="effect1_dropShadow" />
+            <feColorMatrix in="SourceAlpha" type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+            <feOffset dy="2" />
+            <feGaussianBlur stdDeviation="2" />
+            <feColorMatrix type="matrix"
+                values="0 0 0 0 0.5775 0 0 0 0 0.6405 0 0 0 0 0.7875 0 0 0 0.4 0" />
+            <feBlend in2="effect1_dropShadow" mode="normal" result="effect2_dropShadow" />
+            <feBlend in="SourceGraphic" in2="effect2_dropShadow" mode="normal" result="shape" />
+        </filter>
+    </defs>
+</svg>

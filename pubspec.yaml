@@ -1,0 +1,71 @@
+name: eminweb
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  common:
+    git:
+      url: git@gitlab.com:diginexhk/supply-chain/flutter-applications/common.git
+      ref: master
+  surveybuilder:
+    git:
+      url: git@gitlab.com:diginexhk/supply-chain/flutter-applications/survey-builder.git
+      ref: master
+  surveyreport:
+    git:
+      url: git@gitlab.com:diginexhk/supply-chain/flutter-applications/survey-report.git
+      ref: master
+
+  flutter_dropzone: ^2.0.1
+  get: ^3.24.0
+  screenshot: ^1.0.0-nullsafety.1
+  printing: ^5.0.4
+  google_fonts: ^2.0.0
+  flutter_web_plugins:
+    sdk: flutter
+#
+#dependency_overrides:
+#  surveybuilder:
+#    path: ../survey-builder
+#  surveyreport:
+#    path: ../survey-report
+#  common:
+#    path: ../common
+#  business:
+#    path: ../business
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/data/
+    - assets/icons/
+    - assets/langs/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: packages/common/fonts/inter_black.ttf
+        - asset: packages/common/fonts/inter_bold.ttf
+        - asset: packages/common/fonts/inter_medium.ttf
+        - asset: packages/common/fonts/inter_regular.ttf
+        - asset: packages/common/fonts/inter_semi_bold.ttf
+        - asset: packages/common/fonts/inter_extra_bold.ttf
+        - asset: packages/common/fonts/inter_extra_light.ttf
+        - asset: packages/common/fonts/inter_light.ttf
+        - asset: packages/common/fonts/inter_thin.ttf

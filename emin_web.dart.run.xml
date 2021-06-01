@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+    <configuration name="emin_web.dart" default="false" factoryName="Flutter"
+        type="FlutterRunConfigurationType">
+        <option name="additionalArgs"
+            value="--dart-define=&quot;BASE_URL=https://emin-backend.dev2.diginex.fun/&quot;" />
+        <option name="filePath" value="$PROJECT_DIR$/emin-web/lib/eminweb.dart" />
+        <method v="2" />
+    </configuration>
+</component>

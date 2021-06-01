@@ -1,0 +1,6 @@
+FROM cirrusci/flutter:2.0.1
+USER root
+WORKDIR /project
+# RUN flutter config --enable-web
+# RUN flutter build web
+# RUN ls build/web -al

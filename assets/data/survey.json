@@ -1,0 +1,2825 @@
+[
+  {
+    "name": "Recruitment process",
+    "description": "Survey about recruitment process",
+    "status": "draft",
+    "startDate": 1610608594773,
+    "canUserChangeOnSubmit": false,
+    "expiresOn": null,
+    "pages": [
+      {
+        "name": "",
+        "description": "",
+        "sections": [
+          {
+            "name": "",
+            "description": "",
+            "questions": [
+              {
+                "question": "Tell us about yourself.",
+                "serialNo": 1,
+                "isMandatory": false,
+                "controlTypes": [
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "1",
+                      "name": "",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "2",
+                            "name": "Name",
+                            "hint": "Name"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "3",
+                            "name": "Gender",
+                            "hint": "Select gender",
+                            "options": [
+                              "Male",
+                              "Female",
+                              "Other"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "4",
+                            "name": "Nationality",
+                            "hint": "Select nationality",
+                            "options": [
+                              "Thailand",
+                              "Myanmar",
+                              "Cambodia",
+                              "Laos"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "",
+        "description": "",
+        "sections": [
+          {
+            "name": "",
+            "description": "",
+            "questions": [
+              {
+                "question": "How did you learn about this job?",
+                "serialNo": 1,
+                "isMandatory": false,
+                "controlTypes": [
+                  {
+                    "type": "single_select",
+                    "control": {
+                      "id": "5",
+                      "name": "",
+                      "options": [
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Through an online job advertisement"
+                          }
+                        },
+                        {
+                          "control": {
+                            "name": "Referred by a friend or relative"
+                          },
+                          "type": "label"
+                        },
+                        {
+                          "control": {
+                            "name": "Rehired by the company"
+                          },
+                          "type": "label"
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "6",
+                            "name": "Others",
+                            "hint": "Others"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "question": "When did you sign your contract?",
+                "serialNo": 2,
+                "isMandatory": false,
+                "controlTypes": [
+                  {
+                    "type": "single_select",
+                    "control": {
+                      "id": "7",
+                      "name": "",
+                      "options": [
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "At least one day prior to their departure from their CoO"
+                          }
+                        },
+                        {
+                          "name": "At the airport, hours before their departure from their CoO",
+                          "type": "label"
+                        },
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Upon arrival in their CoD"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "question": "Was it explained to you before you signed it??",
+                "serialNo": 3,
+                "isMandatory": false,
+                "controlTypes": [
+                  {
+                    "type": "single_select",
+                    "control": {
+                      "id": "8",
+                      "name": "",
+                      "options": [
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Yes"
+                          }
+                        },
+                        {
+                          "control": {
+                            "name": "No"
+                          },
+                          "type": "label"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "question": "Did you sign an additional contract when you arrived in Thailand?",
+                "serialNo": 4,
+                "isMandatory": false,
+                "controlTypes": [
+                  {
+                    "type": "single_select",
+                    "control": {
+                      "id": "9",
+                      "name": "",
+                      "options": [
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Yes"
+                          }
+                        },
+                        {
+                          "control": {
+                            "name": "No"
+                          },
+                          "type": "label"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "question": "Are there any differences in your current working and living conditions from what you were told during the recruitment process?",
+                "serialNo": 5,
+                "isMandatory": false,
+                "controlTypes": [
+                  {
+                    "type": "single_select",
+                    "control": {
+                      "id": "10",
+                      "name": "",
+                      "options": [
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Yes"
+                          }
+                        },
+                        {
+                          "control": {
+                            "name": "No"
+                          },
+                          "type": "label"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "question": "In what way are they different? (Please select all applicable answers)",
+                "serialNo": 6,
+                "isMandatory": false,
+                "controlTypes": [
+                  {
+                    "type": "multi_select",
+                    "control": {
+                      "id": "11",
+                      "name": "",
+                      "options": [
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Different worksite"
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Actual work is  different from job description"
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Different amount of wages received"
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Different wage terms and payment"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "12",
+                            "name": "Others (please specify)",
+                            "hint": "Others"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Recruitment fees and cost",
+        "description": "",
+        "sections": [
+          {
+            "name": "",
+            "description": "",
+            "questions": [
+              {
+                "question": "Did you pay for any of the following fees and cost?",
+                "isMandatory": false,
+                "serialNo": 1,
+                "controlTypes": [
+                  {
+                    "type": "label",
+                    "control": {
+                      "name": "Pre-departure fees and costs"
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "name": "Application Fee",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "13",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "name": "Amount",
+                            "id": "14",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "name": "Currency",
+                            "id": "15",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "16",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "name": "Skills testing fee",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "17",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "18",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "id": "19",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "name": "Was this reimbursed?",
+                            "id": "20",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "name": "Cost of additional certifications",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "21",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "22",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "23",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "24",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "name": "Medical exams/screening fees (if required by the  company or laws)",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "25",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "26",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "27",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "28",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "name": "Application Fee",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "29",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "30",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "31",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "32",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "name": "Application Fee",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "33",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "34",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "35",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "36",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Application Fee",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Application Fee",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "label",
+                    "control": {
+                      "name": "Post-arrival fees and costs"
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Application Fee",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Skills testing fee",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Cost of additional certifications",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Medical exams/screening fees (if required by the  company or laws)",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Application Fee",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Application Fee",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Application Fee",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Application Fee",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "question": "Did you have to take out a loan?",
+                "serialNo": 2,
+                "isMandatory": false,
+                "controlTypes": [
+                  {
+                    "type": "single_select",
+                    "control": {
+                      "id": "4000",
+                      "name": "",
+                      "options": [
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Yes"
+                          }
+                        },
+                        {
+                          "control": {
+                            "name": "No"
+                          },
+                          "type": "label"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "question": "What is the interest rate?",
+                "serialNo": 3,
+                "isMandatory": false,
+                "controlTypes": [
+                  {
+                    "type": "editor",
+                    "control": {
+                      "id": "40001",
+                      "name": "",
+                      "hint": "Interest Rate"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Document retention",
+        "description": "",
+        "sections": [
+          {
+            "name": "",
+            "description": "",
+            "questions": [
+              {
+                "question": "Is any of the following  retained by the recruitment agency? (Please select all applicable answers)",
+                "serialNo": 1,
+                "controlTypes": [
+                  {
+                    "type": "label",
+                    "control": {
+                      "name": "During the recruitment phase"
+                    }
+                  },
+                  {
+                    "type": "single_select",
+                    "control": {
+                      "id": "100",
+                      "name": "",
+                      "options": [
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Passport"
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Work authorization, identity documents"
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "ATM or bank card"
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Other travel documents, for example the return travel tickets"
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Diploma, skills certificate"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "101",
+                            "name": "Others (please specify)",
+                            "hint": "Others"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "label",
+                    "control": {
+                      "name": "During the employment phase"
+                    }
+                  },
+                  {
+                    "type": "single_select",
+                    "control": {
+                      "id": "102",
+                      "name": "",
+                      "options": [
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Passport"
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Work authorization, identity documents"
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "ATM or bank card"
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Other travel documents, for example the return travel tickets"
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Diploma, skills certificate"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "103",
+                            "name": "Others (please specify)",
+                            "hint": "Others"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "question": "Were you given instructions on how you can retrieve these documents when you need them?",
+                "serialNo": 2,
+                "controlTypes": [
+                  {
+                    "type": "single_select",
+                    "control": {
+                      "id": "104",
+                      "name": "",
+                      "options": [
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Yes"
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "No"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Working and living conditions",
+    "description": "Survey about working and living conditions",
+    "status": "draft",
+    "activeOn": 1610608594773,
+    "canUserChangeOnSubmit": false,
+    "expiresOn": null,
+    "pages": [
+      {
+        "name": "",
+        "description": "",
+        "sections": [
+          {
+            "name": "",
+            "description": "",
+            "questions": [
+              {
+                "question": "Tell us about yourself.",
+                "serialNo": 1,
+                "isMandatory": false,
+                "controlTypes": [
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "1",
+                      "name": "",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "2",
+                            "name": "Name",
+                            "hint": "Name"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "3",
+                            "name": "Gender",
+                            "hint": "Select gender",
+                            "options": [
+                              "Male",
+                              "Female",
+                              "Other"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "4",
+                            "name": "Nationality",
+                            "hint": "Select nationality",
+                            "options": [
+                              "Thailand",
+                              "Myanmar",
+                              "Cambodia",
+                              "Laos"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Recruitment fees and cost",
+        "description": "",
+        "sections": [
+          {
+            "name": "",
+            "description": "",
+            "questions": [
+              {
+                "question": "Did you pay for any of the following fees and cost?",
+                "isMandatory": false,
+                "serialNo": 1,
+                "controlTypes": [
+                  {
+                    "type": "label",
+                    "control": {
+                      "name": "Pre-departure fees and costs"
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Application Fee",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Skills testing fee",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Cost of additional certifications",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Medical exams/screening fees (if required by the  company or laws)",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Application Fee",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Application Fee",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Application Fee",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Application Fee",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "label",
+                    "control": {
+                      "name": "Post-arrival fees and costs"
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Application Fee",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Skills testing fee",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Cost of additional certifications",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Medical exams/screening fees (if required by the  company or laws)",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Application Fee",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Application Fee",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Application Fee",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "form",
+                    "control": {
+                      "id": "",
+                      "name": "Application Fee",
+                      "formControls": [
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "To whom did you pay these fees/cost?",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Amount",
+                            "hint": "Enter your answer"
+                          }
+                        },
+                        {
+                          "type": "dropdown",
+                          "control": {
+                            "id": "",
+                            "name": "Currency",
+                            "hint": "Select Currency",
+                            "options": [
+                              "Dollar",
+                              "Thai Baht",
+                              "Dong"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "single_select",
+                          "control": {
+                            "id": "",
+                            "name": "Was this reimbursed?",
+                            "options": [
+                              {
+                                "type": "label",
+                                "control": {
+                                  "name": "Yes"
+                                }
+                              },
+                              {
+                                "control": {
+                                  "id": "",
+                                  "name": "No"
+                                },
+                                "type": "label"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "question": "Did you have to take out a loan?",
+                "serialNo": 2,
+                "isMandatory": false,
+                "controlTypes": [
+                  {
+                    "type": "single_select",
+                    "control": {
+                      "id": "1000",
+                      "name": "",
+                      "options": [
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Yes"
+                          }
+                        },
+                        {
+                          "control": {
+                            "name": "No"
+                          },
+                          "type": "label"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "question": "What is the interest rate?",
+                "serialNo": 3,
+                "isMandatory": false,
+                "controlTypes": [
+                  {
+                    "type": "editor",
+                    "control": {
+                      "id": "10000",
+                      "name": "",
+                      "hint": "Interest Rate"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "",
+        "description": "",
+        "sections": [
+          {
+            "name": "",
+            "description": "",
+            "questions": [
+              {
+                "question": "How did you learn about this job?",
+                "serialNo": 1,
+                "isMandatory": false,
+                "controlTypes": [
+                  {
+                    "type": "single_select",
+                    "control": {
+                      "id": "",
+                      "name": "",
+                      "options": [
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Through an online job advertisement"
+                          }
+                        },
+                        {
+                          "control": {
+                            "id": "",
+                            "name": "Referred by a friend or relative"
+                          },
+                          "type": "label"
+                        },
+                        {
+                          "control": {
+                            "id": "",
+                            "name": "Rehired by the company"
+                          },
+                          "type": "label"
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Others",
+                            "hint": "Others"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "question": "When did you sign your contract?",
+                "serialNo": 2,
+                "isMandatory": false,
+                "controlTypes": [
+                  {
+                    "type": "single_select",
+                    "control": {
+                      "id": "",
+                      "name": "",
+                      "options": [
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "At least one day prior to their departure from their CoO"
+                          }
+                        },
+                        {
+                          "name": "At the airport, hours before their departure from their CoO",
+                          "type": "label"
+                        },
+                        {
+                          "control": {
+                            "id": "",
+                            "name": "Upon arrival in their CoD"
+                          },
+                          "type": "label"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "question": "Was it explained to you before you signed it??",
+                "serialNo": 3,
+                "isMandatory": false,
+                "controlTypes": [
+                  {
+                    "type": "single_select",
+                    "control": {
+                      "id": "",
+                      "name": "",
+                      "options": [
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Yes"
+                          }
+                        },
+                        {
+                          "control": {
+                            "id": "",
+                            "name": "No"
+                          },
+                          "type": "label"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "question": "Did you sign an additional contract when you arrived in Thailand?",
+                "serialNo": 4,
+                "isMandatory": false,
+                "controlTypes": [
+                  {
+                    "type": "single_select",
+                    "control": {
+                      "id": "",
+                      "name": "",
+                      "options": [
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Yes"
+                          }
+                        },
+                        {
+                          "control": {
+                            "id": "",
+                            "name": "No"
+                          },
+                          "type": "label"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "question": "Are there any differences in your current working and living conditions from what you were told during the recruitment process?",
+                "serialNo": 5,
+                "isMandatory": false,
+                "controlTypes": [
+                  {
+                    "type": "single_select",
+                    "control": {
+                      "id": "",
+                      "name": "",
+                      "options": [
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Yes"
+                          }
+                        },
+                        {
+                          "control": {
+                            "id": "",
+                            "name": "No"
+                          },
+                          "type": "label"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "question": "In what way are they different? (Please select all applicable answers)",
+                "serialNo": 6,
+                "isMandatory": false,
+                "controlTypes": [
+                  {
+                    "type": "multi_select",
+                    "control": {
+                      "id": "",
+                      "name": "",
+                      "options": [
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Different worksite"
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Actual work is  different from job description"
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Different amount of wages received"
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "control": {
+                            "name": "Different wage terms and payment"
+                          }
+                        },
+                        {
+                          "type": "editor",
+                          "control": {
+                            "id": "",
+                            "name": "Others (please specify)",
+                            "hint": "Others"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Document retention",
+        "description": "",
+        "sections": [
+          {
+            "name": "Section 1",
+            "description": "",
+            "questions": [
+              {
+                "question": "Is any of the following  retained by the recruitment agency? (Please select all applicable answers)",
+                "serialNo": 1
+              },
+              {
+                "question": "Were you given instructions on how you can retrieve these documents when you need them?",
+                "serialNo": 2
+              }
+            ]
+          },
+          {
+            "name": "Section 2",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  }
+]
